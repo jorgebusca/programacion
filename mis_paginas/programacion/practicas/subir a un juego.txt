@@ -1,0 +1,16 @@
+<script>
+// Edit your script here
+
+function ingreso(altura){
+if(altura>=1.50){
+ document.write("Puede  Ingresar al Juego");
+}else{
+  document.write("No tiene la altura Minima");
+}
+
+
+}
+var altura=prompt("Ingrese altura");
+ingreso(altura);
+</script>
+<!-- edit your html here -->

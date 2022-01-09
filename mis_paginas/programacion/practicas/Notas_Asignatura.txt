@@ -1,0 +1,63 @@
+<script>
+// Edit your script here
+
+
+var asign=prompt("Ingrese asignatura");
+var nota=prompt("Ingrese nota");
+
+ function Nota_asignatura(Nota){
+		
+        switch(Nota>=1<=10){
+            case Nota<=3:
+               document.write("Aplazado <br>");
+                break;
+            case Nota<=5:
+                document.write("Tiene Regular <br>");
+                break;
+            case Nota<=7:
+                document.write("Bueno <br>");
+                break;
+            case Nota<=9: 
+                document.write("Muy Bueno <br>");
+                break;
+            case Nota<=10:
+                document.write("La nota es Exelente <br>");   
+                break;
+            default:
+                document.write("No hay nota <br>");
+                break;
+            }
+        }
+
+       function Asignatura(asign){
+
+switch (asign){
+    case "Matematicas":
+        document.write("La nota de Matematicas es: <br>");
+        break;
+    case "Literatura":
+        document.write("La nota de Literatura es: <br>");
+        break;
+    case "Educacion Civica":
+        document.write("La nota de Eucacion civica es: ");
+        break;
+    case "Historia": 
+        document.write("La nota de Historia es: <br>");
+        break;
+    case "Informatica":
+        document.write("La nota de Informatica es: <br>"); 
+        break;
+    default:
+        document.write("no ingresastes ninguna Asignatura vuelve a intentarlo <br>");
+        break;
+        
+    }
+}
+
+Asignatura(asign) + Nota_asignatura(nota);
+
+
+
+
+</script>
+<!-- edit your html here -->

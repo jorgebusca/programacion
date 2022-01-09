@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "F:\\javascript"
+		}
+	],
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"type": "pwa-chrome",
+				"request": "launch",
+				"name": "Open condicionales.html",
+				"file": "f:\\javascript\\condicionales.html"
+			}
+		]
+	}
+}

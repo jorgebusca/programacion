@@ -1,0 +1,24 @@
+<script>
+// Edit your script here
+
+
+function aulas(){
+var alumnos=prompt("Ingrese la cantidad de alumnos ");
+var bancos=prompt("Ingrese la cantidad de bancos en el aula");
+
+if(alumnos==bancos){
+	document.write("No se necesitan bancos");
+	}
+else if(alumnos>bancos){
+	document.write("Se necesitan" + " " + (alumnos-bancos) + " " + "bancos");
+	}
+else if(alumnos<bancos){
+    document.write("Sobran" + " " + (bancos-alumnos) + " " + "bancos" );
+    }
+    
+}
+
+aulas();
+
+</script>
+<!-- edit your html here -->

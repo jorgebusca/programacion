@@ -1,0 +1,21 @@
+<script>
+// Edit your script here
+var nombre=prompt("Ingrese su Nombre");
+var apellido=prompt("Ingrese su Apellido");
+
+document.write("<b>" + nombre + "</b>" + " ");
+document.write("<b>" + apellido + "</b> <br>" );
+
+while(nombre!=""){
+	var nombre=prompt("Ingrese su Nombre");
+	var apellido=prompt("Ingrese su Apellido");
+
+	document.write("<b>" + nombre + "</b>" + " ");
+	document.write("<b>" + apellido + "</b> <br>" );
+    
+    if(nombre==null){
+    	break
+    }
+}
+</script>
+<!-- edit your html here -->

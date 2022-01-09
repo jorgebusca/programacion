@@ -1,0 +1,23 @@
+<script>
+// Edit your script here
+var usuario="admin";
+var password="admin";
+
+function loguearse(){
+var usu=prompt("Ingrese Usuario");
+if(usuario==usu){
+document.write("Usuario Confitmado <br>");
+}else{
+  document.write("Usuario no Confirmado <br>"); 
+}  
+var pass=prompt("Ingrese Password");
+if(password==pass){
+document.write("Password Confitmado <br>");
+}else{
+  document.write("Password no Confirmado <br>");
+}
+}
+
+loguearse();
+</script>
+<!-- edit your html here -->

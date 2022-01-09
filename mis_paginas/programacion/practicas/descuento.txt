@@ -1,0 +1,24 @@
+<script>
+// Edit your script here
+
+
+function descuento(){
+var monto=prompt("Ingrese la cantidad a pagar ");
+var pago=prompt("Ingrese la forma de pago");
+var descuento=monto*0.10;
+
+if(pago=="contado"){
+	document.write("Usted tiene un descuento del 10% <br>");
+    document.write("El pago efectivo es " + " " + "$" + (monto-descuento));
+	}
+else if(pago=="tarjeta"){
+	document.write("No hay descuento con tarjeta <br>");
+    document.write("Su pago con tarjeta es " + " " + "$" + monto);
+	}
+    
+}
+
+descuento();
+
+</script>
+<!-- edit your html here -->

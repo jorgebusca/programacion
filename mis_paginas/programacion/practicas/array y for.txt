@@ -1,0 +1,22 @@
+<script>
+// Edit your script here
+var latinos = ['Argentina', 'Bolivia', 'Paraguay', 'Chile'];
+
+var Pares = new Array(2, 4, 6, 8, 10);
+
+document.write(Pares + '<br>')
+document.write(latinos + '<br>');
+
+document.write(latinos[2] + '<br>');
+    for(i=0;i<10; i++){
+    
+	for(n=0;n<10; n++){
+    document.write(i);
+    document.write(n + ' ');
+    
+    }
+   
+    document.write('<br>');
+}
+</script>
+<!-- edit your html here -->

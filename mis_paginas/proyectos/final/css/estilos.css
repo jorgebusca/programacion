@@ -1,0 +1,233 @@
+/* Aplique el nuevo modelo de caja CSS que determina que el ancho visible de la caja*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Header Area*/
+#logo {
+    width: 100px;
+    height: 100px;
+    background: url("../recursos/img/logo.png");
+    font-size: 0;
+    left: 10px; 
+}
+/*Fin de Header Area*/
+
+/*Centre la lista de productos*/
+
+
+/*Formulario de contacto*/
+/* Placeholder colors */
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #9b9b9b;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #9b9b9b;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #9b9b9b;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #9b9b9b;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #9b9b9b;
+}
+
+textarea::placeholder { color: #9b9b9b; font-family: arial; }
+
+/* Colors for focused fields */
+
+input[type=text], input[type=email], textarea {
+  outline: none;
+  border: 1px solid #9b9b9b;
+}
+ 
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+  border: 1px solid #00C5BE;
+}
+
+/* Input styling */
+#main-header {
+    height: 100px;
+    padding: 1em;
+    
+    color: #fafafa;
+}
+
+#main-nav {
+    background-color: #336;
+}
+
+#main-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+}
+
+#main-nav ul li {
+    width: 50%;
+    height: 45px;
+    line-height: 45px;
+}
+
+#main-nav ul li a {
+    display: block;
+    color: #fafafa;
+}
+
+#main-nav ul li a.active {
+    display: block;
+    color: #fafafa;
+    background-color: #66a;
+}
+
+/**	Main */
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-bottom: 14em;
+	padding: 2em 4em;
+}
+
+main section {
+	margin-bottom: 4em;
+}
+textarea {
+   font-family: arial;
+   width: 27rem;
+   font-size: 1rem;
+   padding: 0.6rem;
+   margin-right: 0.5rem;
+   margin-left: 0.5rem;
+   border-radius: 5px;
+   border: 1px solid #9b9b9b;
+   color: #9b9b9b !important;
+}
+
+.contact-form-div input {
+   display: block;
+   font-size: 1rem;
+   width: 27rem;
+   padding: 0.6rem;
+   margin: 0.5rem;
+   border-radius: 5px;
+   border: 1px solid #9b9b9b;
+   color: #9b9b9b !important;
+}
+
+.contact-form-div input[type=submit] {
+   width: auto;
+   background-color: #00C5BE;
+   border: none;
+   color: #fff !important;
+   font-size: 1em;
+   padding: 10px 50px;
+   text-transform: uppercase;
+   font-weight: normal;
+}
+
+/* Honeypot technique, hide the fake field */
+#m66 {
+   display: none;
+}
+
+
+	
+/*Footer*/
+/*Footer*/
+footer{
+    padding: 0px 0px;
+    background: #00163a;
+    background-color: black;
+    position: fixed;
+	bottom: 0;
+	display: flex;
+	width: 100%;
+}
+
+div.footer-titles{
+    text-align: center;
+}
+
+h2.titulo{
+ font-size:15px;	
+ color: white;
+ padding: 2%;
+}	
+
+footer div.social-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div.social-content div.social-item{
+    margin: 0px 0px;
+    
+}
+
+footer div.datos-alumno{
+    text-align: center;
+}
+.socialImg
+{
+    width:30px;
+    height:30px;
+}
+
+#foot {
+width: 90vw;    
+margin: 0 auto;
+
+}
+#cont,#redes,#newsletter{
+    width: 30%;
+}
+#redes{
+    padding-top: 1.8em;
+}
+
+
+#newsletter button{
+    cursor: pointer;
+}
+#newsletter button:hover{
+    border: 2px solid black;
+}
+div.Admin-Grilla{
+    height:400px;
+}
+div.Admin-Footer{
+    height:200px;
+}
+footer div.datos-alumno p{
+	    font-size: 15px;
+        text-align: center;
+        margin: auto;
+		color: white;
+		padding: 1%;
+}
+img
+{
+    width:150px;
+    height:150px;
+}
+
+/*Gracias.php*/
+section.gracias {
+text-align:center;	
+}
+
+
+
+
+
+

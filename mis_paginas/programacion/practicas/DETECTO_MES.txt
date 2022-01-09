@@ -1,0 +1,53 @@
+<script>
+// Edit your script here
+//var asign=prompt("Ingrese asignatura");
+var MES=prompt("Ingrese EL MES EN NUMERO");
+
+ function Nota_asignatura(MES){
+		
+        switch(MES>=1<=12){
+            case MES==1:
+               document.write("El mes es ENERO <br>");
+                break;
+            case MES==2:
+                document.write("El mes es FEBRERO <br>");
+                break;
+            case MES==3:
+                document.write("El mes es MARZO <br>");
+                break;
+            case MES==4: 
+                document.write("El mes es ABRIL <br>");
+                break;
+             case MES==5:
+               document.write("El mes es MAYO <br>");
+                break;
+            case MES==6:
+                document.write("El mes es JUNIO <br>");
+                break;
+            case MES==7:
+                document.write("El mes es JULIO <br>");
+                break;
+            case MES==8: 
+                document.write("El mes es AGOSTO <br>");
+                break;
+            case MES==9:
+                document.write("El mes es SEPTIEMBRE <br>");   
+                break;
+            case MES==10:
+               document.write("El mes es OCTUBRE <br>");
+                break;
+            case MES==11:
+                document.write("El mes es NOVIEMBRE <br>");
+                break;
+            case MES==12:
+                document.write("El mes es DICIEMBRE <br>");
+                break;
+            default:
+                document.write("MES MAL INGRESADO <br>");
+                break;
+            }
+        }
+Nota_asignatura(MES);
+
+</script>
+<!-- edit your html here -->

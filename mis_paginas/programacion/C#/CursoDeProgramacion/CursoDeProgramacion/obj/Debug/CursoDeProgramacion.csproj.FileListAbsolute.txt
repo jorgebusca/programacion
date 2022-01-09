@@ -1,0 +1,10 @@
+C:\wamp64\www\programacion\C#\CursoDeProgramacion\CursoDeProgramacion\bin\Debug\CursoDeProgramacion.exe.config
+C:\wamp64\www\programacion\C#\CursoDeProgramacion\CursoDeProgramacion\bin\Debug\CursoDeProgramacion.exe
+C:\wamp64\www\programacion\C#\CursoDeProgramacion\CursoDeProgramacion\bin\Debug\CursoDeProgramacion.pdb
+C:\wamp64\www\programacion\C#\CursoDeProgramacion\CursoDeProgramacion\obj\Debug\CursoDeProgramacion.csproj.AssemblyReference.cache
+C:\wamp64\www\programacion\C#\CursoDeProgramacion\CursoDeProgramacion\obj\Debug\CursoDeProgramacion.Form1.resources
+C:\wamp64\www\programacion\C#\CursoDeProgramacion\CursoDeProgramacion\obj\Debug\CursoDeProgramacion.Properties.Resources.resources
+C:\wamp64\www\programacion\C#\CursoDeProgramacion\CursoDeProgramacion\obj\Debug\CursoDeProgramacion.csproj.GenerateResource.cache
+C:\wamp64\www\programacion\C#\CursoDeProgramacion\CursoDeProgramacion\obj\Debug\CursoDeProgramacion.csproj.CoreCompileInputs.cache
+C:\wamp64\www\programacion\C#\CursoDeProgramacion\CursoDeProgramacion\obj\Debug\CursoDeProgramacion.exe
+C:\wamp64\www\programacion\C#\CursoDeProgramacion\CursoDeProgramacion\obj\Debug\CursoDeProgramacion.pdb
